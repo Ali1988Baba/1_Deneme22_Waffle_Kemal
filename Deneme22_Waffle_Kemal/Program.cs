@@ -6,6 +6,7 @@
         {
             Console.WriteLine("WELCOME TO KEMAL WAFFLE");
             Console.WriteLine("***********************");
+
             Console.WriteLine("Enter A Waffle Porsion Quantity :");
             int porsionQuantity2 = Convert.ToInt32(Console.ReadLine());    
 
@@ -14,7 +15,9 @@
             Console.WriteLine("QUEUE :" + queueNumber1);
             bool waffleStep3 = true;
             string chiefsNumbers = "1_CHİEF 1\n" + "2_CHİEF 2\n" + "3_CHİEF 3";
+
             Console.WriteLine(chiefsNumbers);
+
             if (waffleStep3)
             {
                 Console.WriteLine("Next");
